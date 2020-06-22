@@ -1,7 +1,7 @@
 # Site settings
 title:          KCNET KGURU
 description:    "KCNET KGURU Tech Blog"
-baseurl:        "/kguru"
+baseurl:        "/tale"
 url:            "https://kcnet-kguru.github.io/ "
 
 # Google Analytics
