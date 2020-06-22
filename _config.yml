@@ -1,17 +1,17 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          KCNET KGURU
+description:    "KCNET KGURU Tech Blog"
 baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+url:            "https://kcnet-kguru.github.io/ "
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: UA-168993046-1
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         KCNET
+  url:          http://www.kcnet.co.kr
+  email:        jsi@kcnet.co.kr
 
 # Build settings
 markdown:       kramdown
