@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "[후기] Vuejs와 Spring Boot를 활용한 나만의 TODO App 만들기(1)"
+title:  "[KGURU] 나만의 TODO App 만들기 - Javascript"
 author: "장상익"
 comments: true
 ---
-### KURU Vuejs와 Spring Boot를 활용한 나만의 TODO App 만들기 후기
+### KURU 나만의 TODO App 만들기 - Javascrtipt
 
 안녕하세요. KGuru 첫번째 강의를 담당했던 장상익 입니다.<br/>
 KGuru 첫 강의형 스터디를 진행하면서 느꼈던 점과 스터디 내용에 대해 공유하려고 합니다.
@@ -146,5 +146,3 @@ promiseFirst()
 // 결과 do promiseFirst function -> 3초 후 do promiseSecond function -> do promiseThird function 순으로 console 에 print 됩니다.
 
 ```
-
-글이 길어 지는 것 같아 다음글에  Vuejs에 대해서 포스팅 하겠습니다.

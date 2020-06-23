@@ -1,15 +1,11 @@
 ---
 layout: post
 title: "About"
-author: "Chester"
+author: "KCNET"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+### 지식 공유 스터디 그룹 KGURU Tech Blog 입니다.
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+**KGURU**는 소프트웨어 아키텍트 사상과 책임은 물론 자신의 믿음을 행동으로 실천한다는 데 그 뜻을 두고 **그룹스터디**, **멘토링**, **세미나** 등등 기술이나 업무 지식이나 경험을 공유하고, 사내에 선한 영향력을 전파하려는 그룹 입니다.
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
-
-Thanks for reading!
