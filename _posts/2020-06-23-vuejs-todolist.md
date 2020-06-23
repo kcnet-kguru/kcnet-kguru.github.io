@@ -14,7 +14,7 @@ comments: true
 
 아래 그림이 JAVA/jsp 에서 많이 사용하는 고전적 아키텍쳐입니다.
 
-<img src="/assets/images/todolist/old-3tier.png" width="40%" height="30%" title="고전적인 3 티어" alt="old-3tier"></img>
+<img src="/assets/images/todolist/old-3tier.png" width="50%" height="30%" title="고전적인 3 티어" alt="old-3tier">
 
 그림에서 보다 시피 WAS에 presentation layer 가 WEB 과 강하게 결합이 되어 있습니다. 만약 WAS가 멈추면, 동적 html 을 전달하지 못하여 WEB에서는 static resource (css, js, imgaes)<br/>
 만을 전달하므로 브라우저에는 아무런 화면도 표시할 수 없거나 WEB에 설정되어 있는 404, 500 에러 페이지가 표시 될 것입니다. 즉, 웹 서비스의 중단된 모습을 사용자에게 노출 되어 집니다. <br/>
@@ -29,7 +29,14 @@ DOM을 제어하는 부분정도를 javascript를 학습하여 아는 것 정도
 최근까지 여러 연구와 시도 끝에 여러가지 아키텍처가 구상, 구현되었고, B2C 회사들은 진화하는 소프트웨어를 위해 고전적인 아키텍쳐보다 진화한 아키텍처를 선택하여 사용하고 있습니다.
 아래와 같은 형태가 이번 Todolist Application에서 선택한 아키텍쳐 입니다.
 
-<img src="/assets/images/todolist/now-3tier.png" width="40%" height="30%" title="고전적인 3 티어" alt="old-3tier"></img>
+<img src="/assets/images/todolist/now-3tier.png" width="50%" height="30%" title="고전적인 3 티어" alt="old-3tier">
 
 고전적인 아키텍처와 똑같이 3tier Achitecture 이지만, 이 아키텍처는 정확히 WEB 과 WAS의 역할이 주어져 있습니다. 
 WEB은 사용자와의 인터페이스를 담당하고 있고, WAS는 WEB에서 요청하는 Data 전달에 대한 부분만 담당하게 되는 형태로 변화하게 되었습니다.
+즉, WEB은 기존에 WAS에 의존적인 부분을 분리하여 WEB 만의 아키텍쳐를 가지고, 독립적으로 구성이 될 수 있으며, WAS 또한 WEB에 영향을 주지 않고 독립적인 아키텍쳐로 구성할 수 있는 아키텍쳐입니다.
+
+WEB은 기존에 static resource 뿐만 아니라 동적 html 구성이 가능하게 되어  WAS와 무관하게 동작하면서, 필요할 때만 데이터베이스 데이터를 관리하거나 WAS에 필요한 비즈니스 로직을 실행합니다. 이 때 WAS 와 인터페이스 하는 방식이 REST-API를 활용하여, 인터페이스 하게 됩니다. 
+
+그래서 WEB에서 동작하는 시스템의 아키텍쳐를 담당하는 Front End Engineer(이후 FEE)가 생겨나게 되었고, FEE 는 기존의 아키텍트와 같이 WEB영역의 아키텍트 역량을 가지고 있어야 합니다. 그러기 위해선 브라우저, css, js, html 등 깊은 이해가 필요합니다. 여기에 약간의 디자인 역량까지 더해지면 금상첨화 입니다. 그래서 예전 웹디자인과 퍼블리싱을 했던 개발자 들이 학습을 통해 FEE로 전직하는 추세 입니다.
+
+### WEB Progressive Framwork
