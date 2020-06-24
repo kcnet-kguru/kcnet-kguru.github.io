@@ -43,7 +43,7 @@ WEB은 기존에 static resource 뿐만 아니라 동적 html 구성이 가능�
 현재 Front End Web App을 구현하는 데 있어 대표적으로 사용하는 프레임워크나 라일브러리로는 Angular, React, Vue.js 세가지를 손에 꼽을 수 있을 것입니다.(라이브러리라고 표현한 이유는 React는 라이브러리이기 때문입니다.)
 
 아래 이미지는 Github star 수 변화 그래프 입니다.
-<img src="/assets/images/todolist/star-history.png" width="80%" height="80%" title="비교" alt="star-history">
+<img src="/assets/images/todolist/star-history.PNG" width="80%" height="80%" title="비교" alt="star-history">
 
 압도적으로 React와 Vue 가 Anglar에 비해 높은 star 수를 받고 있으며, 최근에는 Vue 가 더 높은 star수를 기록한 것을 볼 수 있습니다.
 start수가 많다고 좋은 것은 아니지만, 개발자들이 직접 사용해본 경험을 토대로 star를 부여하기에 의미가 있습니다.
