@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "[KGURU] 나만의 TODO App 만들기 - Javascript"
+title:  "[K-GURU] 나만의 TODO App 만들기 - Javascript"
 author: "장상익"
 comments: true
 ---
-### KGURU 나만의 TODO App 만들기 - Javascrtipt
+### K-GURU 나만의 TODO App 만들기 - Javascrtipt
 
 안녕하세요. KGuru 첫번째 강의를 담당했던 장상익 입니다.<br/>
-KGuru 첫 강의형 스터디를 진행하면서 느꼈던 점과 스터디 내용에 대해 공유하려고 합니다.
+K-Guru 첫 강의형 스터디를 진행하면서 느꼈던 점과 스터디 내용에 대해 공유하려고 합니다.
 
-### KGuru 란?
+### K-Guru 란?
 
 지식 공유를 지향하는 스터디 그룹입니다. 첫 시작을 강의형 스터디로 하였지만, 그룹스터디, 멘토링, 세미나 등등 기술이나 업무에 관련된 지식과 경험을 공유하고, 사내에 선한 영향력을 전파하려는 그룹입니다.
 

@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "[KGURU] 나만의 TODO App 만들기 - Front End 와 Back End"
+title:  "[K-GURU] 나만의 TODO App 만들기 - Front End 와 Back End"
 author: "장상익"
 comments: true
 ---
-### KGURU 나만의 TODO App 만들기 - Front End 와 Back End
+### K-GURU 나만의 TODO App 만들기 - Front End 와 Back End
 
-안녕하세요 KGuru 장상익 입니다. 
+안녕하세요 K-Guru 장상익 입니다. 
 
 이번 ToDo List App 에서는 Front End - Back End - DataBase 형태의 3 tier archtecture를 사용하였습니다.<br>
 일반적인 JAVA/jsp에서 presentation layer를 Front 라고 생각하시는 분들이 많은 듯 하지만, 사실 제가 생각하는 Front End는 많이 다릅니다.
