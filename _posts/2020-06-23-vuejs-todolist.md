@@ -4,7 +4,6 @@ title:  "[KGURU] 나만의 TODO App 만들기 - Front End 와 Back End"
 author: "장상익"
 comments: true
 ---
-
 ### KURU 나만의 TODO App 만들기 - Front End 와 Back End
 
 안녕하세요 KGuru 장상익 입니다. 
@@ -39,4 +38,21 @@ WEB은 기존에 static resource 뿐만 아니라 동적 html 구성이 가능�
 
 그래서 WEB에서 동작하는 시스템의 아키텍쳐를 담당하는 Front End Engineer(이후 FEE)가 생겨나게 되었고, FEE 는 기존의 아키텍트와 같이 WEB영역의 아키텍트 역량을 가지고 있어야 합니다. 그러기 위해선 브라우저, css, js, html 등 깊은 이해가 필요합니다. 여기에 약간의 디자인 역량까지 더해지면 금상첨화 입니다. 그래서 예전 웹디자인과 퍼블리싱을 했던 개발자 들이 학습을 통해 FEE로 전직하는 추세 입니다.
 
-### WEB Progressive Framwork
+### Front End Web Library & Framework
+
+현재 Front End Web App을 구현하는 데 있어 대표적으로 사용하는 프레임워크나 라일브러리로는 Angular, React, Vue.js 세가지를 손에 꼽을 수 있을 것입니다.(라이브러리라고 표현한 이유는 React는 라이브러리이기 때문입니다.)
+
+아래 이미지는 Github star 수 변화 그래프 입니다.
+<img src="/assets/images/todolist/star-history.png" width="80%" height="80%" title="비교" alt="star-history">
+
+압도적으로 React와 Vue 가 Anglar에 비해 높은 star 수를 받고 있으며, 최근에는 Vue 가 더 높은 star수를 기록한 것을 볼 수 있습니다.
+start수가 많다고 좋은 것은 아니지만, 개발자들이 직접 사용해본 경험을 토대로 star를 부여하기에 의미가 있습니다.
+
+React 보다 Vue 가 최근 들어 더 많은 star를 받게 된 것은 학습 곡선 때문입니다. React는 모두 javascript로 되어 있어서 학습 난이도가 높습니다. 
+하지만 그만큼 더 많은 것을 확장해서 사용할 수 있는 유연함을 지니고 있고, 여러 업무 분야에서 사용할 수 있는 장점이 있습니다.(React Native는 React기반으로 모바일 앱을 구현할 수 있게 해주기도 합니다.)
+
+Vue 는 html 과 javascript, css를 혼용하여 템플릿 형태로 프레임워크를 제공해 줍니다. 물론 React와 같이 라이브러리로 사용할 수 있지만, 프레임워크가 제공하는 기능에는 많이 못미치는 수준입니다.
+기존에 익숙한 html과 js, css를 활요하기 때문에 React 보다는 학습 곡선이 낮아 배우기 쉽습니다. 그렇다고 아예 학습이 불필요하진 않습니다. 
+하지만, Vue 는 큰 Enterpise 같은 무겁고 복잡한 시스템에는 적용하기 쉽지 않다는 단점을 지니고 있습니다. 그래서 Vue.js 로 구현되는 시스템들은 어느정도 단순하고 가벼운 시스템에 많이 사용되고 있습니다.
+
+여러가지를 고려해본 결과 React처럼 학습난이도가 높은 것 보단 이번 스터디에는 빠르게 익히고 사용할 수 있는 Vue.js를 사용하게 되었습니다.
