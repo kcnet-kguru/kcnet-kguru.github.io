@@ -4,7 +4,7 @@ title:  "[KGURU] 나만의 TODO App 만들기 - Front End 와 Back End"
 author: "장상익"
 comments: true
 ---
-### KURU 나만의 TODO App 만들기 - Front End 와 Back End
+### KGURU 나만의 TODO App 만들기 - Front End 와 Back End
 
 안녕하세요 KGuru 장상익 입니다. 
 

@@ -4,7 +4,7 @@ title:  "[KGURU] 나만의 TODO App 만들기 - Javascript"
 author: "장상익"
 comments: true
 ---
-### KURU 나만의 TODO App 만들기 - Javascrtipt
+### KGURU 나만의 TODO App 만들기 - Javascrtipt
 
 안녕하세요. KGuru 첫번째 강의를 담당했던 장상익 입니다.<br/>
 KGuru 첫 강의형 스터디를 진행하면서 느꼈던 점과 스터디 내용에 대해 공유하려고 합니다.
