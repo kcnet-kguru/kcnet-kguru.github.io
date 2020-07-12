@@ -24,7 +24,7 @@ comments: true
 
 Vue.js는 다음과 같은 특징이 있습니다.
 
-<img src="/assets/images/todolist/Vuejs.png" width="50%" height="30%" title="Vuejs" alt="Vue.js">
+<img src="/assets/images/todolist/Vuejs.png" width="70%" height="70%" title="Vuejs" alt="Vue.js">
 
 
 ### MVVM 패턴
@@ -72,9 +72,9 @@ Vue.js는 MVVM 패턴을 사용합니다. 먼저 많이 알려진 MVC 패턴에 
 
 jQuery와 Vue.js의 차이점 중 가장 큰 부분은 elements에 대한 event 를 바인딩 하는 부분입니다.
 
-<img src="/assets/images/todolist/jquery.png" width="50%" height="30%" title="jquery 이벤트 바인딩" alt="Stackoverflow jquery 이벤트 바인딩">
+<img src="/assets/images/todolist/jquery.png" width="70%" height="70%" title="jquery 이벤트 바인딩" alt="Stackoverflow jquery 이벤트 바인딩">
 
-<img src="/assets/images/todolist/vuejs_event.png" width="50%" height="30%" title="vuejs 이벤트 바인딩" alt="Stackoverflow vuejs 이벤트 바인딩">
+<img src="/assets/images/todolist/vue_event.png" width="70%" height="70%" title="vuejs 이벤트 바인딩" alt="Stackoverflow vuejs 이벤트 바인딩">
 
 현재 국내에는 jQuery를 이용한 웹 시스템들이 많이 구축되어 있습니다. 하지만 최근 웹 개발 트렌드로 보면은 복잡한 jQuery 보다 더 간단 명료한 부분이 필요하다고 생각되는 듯 합니다. 그렇다고 jQuery가 성능적으로 좋은 라이브러리라고 얘기할 수 없을 듯 합니다..<br/>
 
@@ -102,4 +102,4 @@ Front End는 'Vue.js'를 사용하고, Back End로 '전자정부프레임워크'
 
 Vue.js에 대한 질문이나 학습에 대해서 도움이 필요하시면 댓글로 질문을 남겨주시거나 저에게 메일을 보내주시면 최선을 다해 답변 드리겠습니다. 
 
-## K-GURU 는 지식을 공유하고 새로운 기술을 학습하는 모임입니다. 지식을 공유하고자 하시거나 새로운 기술을 같이 학습하고자 하시는 분들이 있으시다면, K-GURU에 참여 부탁드립니다.
+## *K-GURU 는 지식을 공유하고 새로운 기술을 학습하는 모임입니다. 지식을 공유하고자 하시거나 새로운 기술을 같이 학습하고자 하시는 분들이 있으시다면, K-GURU에 참여 부탁드립니다.
